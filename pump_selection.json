@@ -1,0 +1,30 @@
+{
+    "initial_specs" : {
+        "Heat_exchanger" : {
+            "L_tube[m]" : 8,
+            "Di[cm]" : 1,
+            "Do[cm]" : 1.4,
+            "wall_thickness[mm]" : 0.5,
+            "wall_material" : "stainless",
+            "Nusselt_in" : 50,
+            "Nusselt_out" : 50,
+            "T_in_H2O[deg_F]" :50,
+            "T_in_wort[deg_F]" : 200,
+            "T_out_wort[deg_F]" : 70 
+        },
+        "pump" : {
+            "wort_sum_minor_losses" : 25,
+            "P_in_H2O[psi]" : 80,
+            "density_H2O[kg/m^3]" :1000,
+            "wort_delta_z[ft]" : 2,
+            "starting_fric_guess" : 0.04,
+            "coil_inner_diam[m]" : 0.005,
+            "H2O_dynamic_viscosity[N-s/m^2]*10^6" : 1225 
+        },
+        "debug" : true,
+        "iteration_stopper" : 0.0000001
+
+    }
+}
+
+ 
